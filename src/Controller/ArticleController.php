@@ -20,6 +20,7 @@ class ArticleController extends AbstractController
     public function index(ArticleRepository $articleRepository): Response
     {
         $var = 1;
+        $user1 = "saber";
         $v2 = "amine";
         $v3 = "mohamed amine";
         $user2 = "wael";
