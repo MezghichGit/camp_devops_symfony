@@ -21,9 +21,14 @@ class ArticleController extends AbstractController
     {
 
         $var = 1;
+        $user1 = "saber";
         $v2 = "amine";
         $v3 = "mohamed amine";
+
         $v4 = "modif sur la branch test";
+
+        $user2 = "wael";
+
         return $this->render('article/index.html.twig', [
             'articles' => $articleRepository->findAll(),
         ]);
